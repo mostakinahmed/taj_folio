@@ -15,7 +15,7 @@
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config" content="assets/favicons/browserconfig.xml">
     <meta name="theme-color" content="#a789d4">
-
+    <script src="https://cdn.tailwindcss.com"></script>
     <!--=============== BOXICONS ===============-->
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
 
@@ -25,14 +25,14 @@
     <!--=============== CSS ===============-->
     <link rel="stylesheet" href="assets/css/styles.css">
 
-    <title> Hailee's Portfolio </title>
+    <title> Tajnin's Portfolio </title>
 </head>
 
 <body>
     <!--=============== HEADER ===============-->
     <header class="header" id="header">
         <nav class="nav container">
-            <a href="#" class="nav__logo">Hailee</a>
+            <a href="#" class="nav__logo">Tajnin</a>
 
             <div class="nav__menu">
                 <ul class="nav__list">
@@ -45,6 +45,12 @@
                     <li class="nav__item ">
                         <a href="#about" class="nav__link">
                             <i class='bx bx-user'></i>
+                        </a>
+                    </li>
+
+                      <li class="nav__item ">
+                        <a href="#education" class="nav__link">
+                            <i class='bx bx-book-reader'></i>
                         </a>
                     </li>
 
@@ -81,7 +87,7 @@
             <div class="home__container container grid">
                 <div class="home__data">
                     <span class="home__greeting">Hello, I'm</span>
-                    <h1 class="home__name">Haliee Keys</h1>
+                    <h1 class="home__name">Ishrat Jahan Tajnin</h1>
                     <h3 class="home__education">Frontend Developer</h3>
 
                     <div class="home__button">
@@ -129,12 +135,12 @@
                         <div class="about__box">
                             <i class='bx bx-award about__icon'></i>
                             <h3 class="about__title">Experience</h3>
-                            <span class="about__subtitle">8 Years Working</span>
+                            <span class="about__subtitle">1 Years Working</span>
                         </div>
                         <div class="about__box">
                             <i class='bx bx-briefcase-alt about__icon'></i>
                             <h3 class="about__title">Completed</h3>
-                            <span class="about__subtitle">48+ Projects</span>
+                            <span class="about__subtitle">4+ Projects</span>
                         </div>
                         <div class="about__box">
                             <i class='bx bx-support about__icon'></i>
@@ -152,6 +158,46 @@
                 </div>
             </div>
         </section>
+
+        <!--=============== EDUCATION ===============-->
+        <section id="education" class="py-16  text-white">
+
+            <div class="max-w-3xl mx-auto px-4">
+
+                <div class="flex flex-col items-center text-center">
+                    <span class="text-purple-400 text-sm">My Journey</span>
+                    <h2 class="text-3xl font-bold mb-10">Education</h2>
+                </div>
+
+                <div class="space-y-6">
+                      <!-- University -->
+                    <div class="bg-gray-900 p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+                        <h3 class="text-xl font-semibold">University</h3>
+                        <p class="text-gray-400 mt-1">East West University</p>
+                        <span class="text-sm text-gray-500">2025 - Present</span>
+                        <p class="mt-2 text-gray-300">
+                            Currently pursuing BSc in Computer Science & Engineering.
+                        </p>
+                    </div>
+
+                    
+                    <!-- College -->
+                    <div class="bg-gray-900 p-6 rounded-2xl shadow-md hover:shadow-lg transition">
+                        <h3 class="text-xl font-semibold">College</h3>
+                        <p class="text-gray-400 mt-1">Central Women's College, Tikatuli, Dhaka</p>
+                        <span class="text-sm text-gray-500">2021 - 2023</span>
+                        <p class="mt-2 text-gray-300">
+                            Completed higher secondary education with specialization in science.
+                        </p>
+                    </div>
+
+                  
+
+                </div>
+            </div>
+
+        </section>
+
 
         <!--=============== SKILLS ===============-->
         <section class="skills section" id="skills">
@@ -596,7 +642,7 @@
                         <div class="contact__card">
                             <i class='bx bx-mail-send contact__card-icon'></i>
                             <h3 class="contact__card-title">Email</h3>
-                            <span class="contact__card-data">user@gmail.com</span>
+                            <span class="contact__card-data">tajnin123@gmail.com</span>
 
                             <a href="mailto:example@domain.com" target="_blank" class="contact__button">
                                 Write Me <i class='bx bx-right-arrow contact__button-icon'></i>
@@ -660,7 +706,7 @@
     <!--=============== FOOTER ===============-->
     <footer class="footer">
         <div class="footer__container container">
-            <h1 class="footer__title">Hailee</h1>
+            <h1 class="footer__title">Tajnin</h1>
 
             <ul class="footer__list">
 
@@ -674,6 +720,9 @@
                     <a href="#skills" class="footer__link">Skills</a>
                 </li>
                 <li class="footer__item">
+                    <a href="#education" class="footer__link">Education</a>
+                </li>
+                <li class="footer__item">
                     <a href="#work" class="footer__link">Work</a>
                 </li>
                 <li class="footer__item">
@@ -683,7 +732,7 @@
 
             <ul class="footer__social">
                 <li class="footer__social-item">
-                    <a href="#" target="_blank" class="footer__social-link">
+                    <a href="https://www.facebook.com/ishrat.jahan.tajnin" target="_blank" class="footer__social-link">
                         <i class='bx bxl-facebook footer__social-icon'></i>
                     </a>
                 </li>
@@ -698,14 +747,14 @@
                     </a>
                 </li>
                 <li class="footer__social-item">
-                    <a href="#" target="_blank" class="footer__social-link">
+                    <a href="https://www.instagram.com/ishrat_jahan_tajnin" target="_blank" class="footer__social-link">
                         <i class='bx bxl-instagram footer__social-icon'></i>
                     </a>
                 </li>
             </ul>
 
             <span class="footer__copy">
-                &#169; 2022 S44WN. All rights reserved.
+                &#169; 2026. All rights reserved.
             </span>
         </div>
     </footer>
